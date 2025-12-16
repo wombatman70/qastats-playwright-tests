@@ -1,0 +1,19 @@
+{
+    "name": "qastats-playwright-tests",
+    "version": "1.0.0",
+    "description": "playwright test suite for QAstats.com",
+    "scripts": {
+        "test": "playwright test",
+        "test:headed": "playwright test --headed",
+        "test:debug": "playwright testy --debug",
+        "test:ui": "playwright test --ui",
+        "test: report": "playwright show-report",
+        "test:single": "playwright test qastats.spec.js"
+    },
+    "keywords": ["playwright", "testing", "qa", "automation"]
+    "author": "Jonathan White",
+    "license": "ISC",
+    "devDependencies": {
+        "@playwright/test": "^1.40.0"
+    }
+}
