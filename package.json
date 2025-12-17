@@ -10,7 +10,7 @@
         "test: report": "playwright show-report",
         "test:single": "playwright test qastats.spec.js"
     },
-    "keywords": ["playwright", "testing", "qa", "automation"]
+    "keywords": ["playwright", "testing", "qa", "automation"],
     "author": "Jonathan White",
     "license": "ISC",
     "devDependencies": {
