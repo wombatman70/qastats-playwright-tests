@@ -41,7 +41,7 @@ jobs:
     
     # Step 6: Upload test report if tests fail
     - name: Upload test report
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       if: always()  # Upload even if tests fail
       with:
         name: playwright-report
@@ -50,7 +50,7 @@ jobs:
     
     # Step 7: Upload test results
     - name: Upload test results
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       if: always()
       with:
         name: test-results
