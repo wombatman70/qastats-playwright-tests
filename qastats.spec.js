@@ -142,7 +142,7 @@ test.describe('QAstats.com - Homepage Tests', () => {
 
             //check for main heading
             const h2 = page.locator('h2');
-            await expect(h2).toHAVECOUNT(1);
+            await expect(h2).toHaveCount(1);
 
             //check for subheading
             const h3 = page.locator('h3');
