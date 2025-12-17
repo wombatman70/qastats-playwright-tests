@@ -91,7 +91,7 @@ test.describe('QAstats.com - Homepage Tests', () => {
 
             //"waitforselector" waits up to 30 seconds 
             // for an element to appear
-            const loadingText = page.locator('text="Crawling website');
+            const loadingText = page.locator('text=Crawling website');
             await expect(loadingText).toBeVisible({ timeout: 5000 });
             
             await expect(page.locator('text=This may take up to 2 minutes')).toBeVisible();
@@ -146,7 +146,7 @@ test.describe('QAstats.com - Homepage Tests', () => {
 
             //check for subheading
             const h3 = page.locator('h3');
-            expect(await h3.count()).toBeGreaterThat(0);
+            expect(await h3.count()).toBeGreaterThan(0);
         });
 
     /**
