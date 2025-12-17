@@ -47,7 +47,7 @@ test.describe('QAstats.com - Homepage Tests', () => {
             // Find the input field
             // ( Using a more flexible selector 
             // to look for input multiple ways)
-            const inputFiled = page.locator('input[type="text"], input [type="url"]').first();
+            const inputField = page.locator('input[type="text"], input [type="url"]').first();
             await expect(inputField).toBeVisible();
 
             //Check if input is enabled
