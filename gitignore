@@ -2,6 +2,9 @@
 node_modules/
 package-lock.json
 
+# NPM and Playwright cache
+.npm/
+
 # Test outputs
 test-results/
 playwright-report/
