@@ -1,5 +1,7 @@
 # QAstats.com - Automated Test Suite
 
+![Tests](https://github.com/wombatman70/qastats-playwright-tests/actions/workflows/playwright.yml/badge.svg)
+
 > A Playwright test suite demonstrating QA automation
 
 ##  Project Overview
