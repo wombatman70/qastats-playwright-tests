@@ -141,7 +141,7 @@ test.describe('QAstats.com - Homepage Tests', () => {
             await page.goto('https://qastats.com');
 
             //check for main heading
-            const ht = page.locator('h2');
+            const h2 = page.locator('h2');
             await expect(h2).toHAVECOUNT(1);
 
             //check for subheading
